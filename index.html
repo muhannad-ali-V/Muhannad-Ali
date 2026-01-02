@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Muhannad Ali - Professional Video Editor specializing in cinematic storytelling, color grading, and motion graphics. View my portfolio of creative video editing projects.">
+    <meta name="keywords"
+        content="video editor, professional video editing, color grading, motion graphics, cinematic editing, Ebrahim Reyan">
+    <meta name="author" content="Muhannad Ali">
+
+
+    <title>Muhannd Ali | Professional Video Editor</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="morocco.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">M<span class="logo-accent">A</span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-name">Mohand Ali</span>
+            </h1>
+            <p class="hero-subtitle">Professional Video Editor</p>
+            <p class="hero-tagline">Crafting Cinematic Stories Frame by Frame</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-play"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate video editor with over 3 years of experience crafting compelling visual
+                        narratives.
+                        My expertise lies in transforming raw footage into cinematic masterpieces that captivate
+                        audiences
+                        and tell powerful stories.
+                    </p>
+                    <p>
+                        From music videos to corporate content, documentaries to commercial advertisements, I bring a
+                        unique
+                        blend of technical precision and creative vision to every project. My workflow combines
+                        industry-leading
+                        software with innovative techniques to deliver exceptional results that exceed client
+                        expectations.
+                    </p>
+                    <p>
+                        I believe that great video editing is more than just cutting clips—it's about understanding
+                        rhythm,
+                        emotion, and the perfect balance between sound and visuals. Every frame is an opportunity to
+                        engage,
+                        inspire, and leave a lasting impression.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="premiere">
+                        <div class="skill-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h3>Adobe Premiere Pro</h3>
+                        <p>Expert-level editing and workflow optimization</p>
+                    </div>
+                    <div class="skill-card" data-skill="aftereffects">
+                        <div class="skill-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>After Effects</h3>
+                        <p>Advanced motion graphics and VFX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">A showcase of my finest work</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="music">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project1.jpg" alt="Music Video Project">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Neon Dreams</h3>
+                        <p>A vibrant music video featuring dynamic cuts and color grading</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project2.jpg" alt="Commercial Advertisement">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>TechVision Commercial</h3>
+                        <p>Corporate advertisement with sleek transitions and motion graphics</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="documentary">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project3.jpg" alt="Documentary Film">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Urban Stories</h3>
+                        <p>Documentary showcasing authentic storytelling and emotional pacing</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="music">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project4.jpg" alt="Indie Music Video">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Midnight Echoes</h3>
+                        <p>Atmospheric music video with creative visual effects</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="event">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project5.jpg" alt="Event Highlight Reel">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Innovation Summit 2025</h3>
+                        <p>High-energy event highlight reel with dynamic pacing</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project6.jpg" alt="Brand Story Video">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Journey</h3>
+                        <p>Compelling brand story with cinematic color grading</p>
+                        <div class="portfolio-tools">
+                            <span class="tool-tag">Premiere Pro</span>
+                            <span class="tool-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Professional video editing solutions tailored to your needs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Professional cutting, trimming, and assembly of footage with precise timing and creative
+                        transitions to bring your story to life.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-adjust"></i>
+                    </div>
+                    <h3>Color Grading</h3>
+                    <p>Expert color correction and grading to establish mood, enhance visual appeal, and ensure
+                        consistent cinematic quality.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <h3>Motion Graphics</h3>
+                    <p>Dynamic animated graphics, titles, and visual effects that add professional polish and engaging
+                        visual elements to your videos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3>Sound Design</h3>
+                    <p>Comprehensive audio editing, mixing, and enhancement to create immersive soundscapes that
+                        complement your visuals perfectly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What my clients say about working with me</p>
+            <div class="testimonials-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Muhannad transformed our raw footage into a stunning music video that exceeded all
+                                expectations.
+                                His attention to detail and creative vision brought our artistic concept to life in ways
+                                we never imagined possible."
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Mahmoud</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Working with Muhannd was an absolute pleasure. His professionalism, quick turnaround
+                                time,
+                                and ability to understand our brand vision made our commercial campaign a massive
+                                success. Highly recommended!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Mohamed Sayed</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Muhannd's color grading expertise is exceptional. He took our documentary footage and
+                                gave it a
+                                cinematic quality that elevated the entire production. His technical skills combined
+                                with artistic sensibility are unmatched."
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Shehap Mohamed</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev-btn" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn next-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's collaborate and bring your vision to life</p>
+            <div class="contact-content">
+
+                <div class="contact-info">
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://web.facebook.com/profile.php?id=61585641407088&sk=about" target="_blank"
+                                rel="noopener" class="social-link facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mohand_ali_mohamed/" target="_blank" rel="noopener"
+                                class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhannad-ali-92a9a13a2/" target="_blank" rel="noopener"
+                                class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.behance.net/mohandali3" target="_blank" rel="noopener"
+                                class="social-link behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://x.com/Muhannad_Ali_1" target="_blank" rel="noopener"
+                                class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>amohand986@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+20 1159571642</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Egypt , cairo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Muhannd Ali</h3>
+                    <p>Professional Video Editor</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://web.facebook.com/profile.php?id=61585641407088&sk=about" target="_blank"
+                        rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/mohand_ali_mohamed/" target="_blank" rel="noopener"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/muhannad-ali-92a9a13a2/" target="_blank" rel="noopener"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/mohandali3" target="_blank" rel="noopener"><i
+                            class="fab fa-behance"></i></a>
+                    <a href="https://x.com/Muhannad_Ali_1" target="_blank" rel="noopener"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Muhannd Ali. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- JavaScript Files -->
+    <script src="js/three-background.js"></script>
+    <script src="js/3d-elements.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
